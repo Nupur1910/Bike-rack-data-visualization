@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TiredFlyer's Website on Bike Racks</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="icon.jpg" type="image/ico">
+	<meta name="description"
+content="Why Horizontal bike racks are better.">
+<meta name="keywords" content="Bike, bike, Bicycle, bicycle, project, projects, commuter, Commuter, rack, bike rack, parking">
+
+</head>
+
+<body>
+<header>
+<h1><a href="index.html">The Problem With Vertical Bike Racks</a></h1>
+</header>
+<!-- Topic Nav -->
+<nav>
+<button class="subtopic" onclick="window.location.href='index.html'">Home</button> &nbsp;
+<button onclick="window.location.href='about.html'">About</button> &nbsp;
+</nav>
+</nBlank<main>
+	<h2>
+		Why Vertical Bike Racks Suck!
+	</h2>
+
+	<p>
+		"We receive overwhelmingly positive feedback on the vertical racks"
+	</p>
+	<p>
+		-ASU Parking Services
+	</p>
+	<h2>
+		WRONG!
+	</h2>
+	<!-- Load d3.js & plugin-->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+	<img src="bike-icon.png" id="bikeIcon" style="position: fixed; top: 20px; right: 1px; width: 50px; height: auto; z-index: 1000;">
+	<script src="bike-scroll-script.js" ></script>
+	<!-- Create a div where the graph will take place -->
+	<div id="waffleSVG"></div>
+	<div id="waffle-tooltip"></div>
+	<script src="waffles.js"></script>
+	<div id="dataset-description3">As the data shown in the pie chart, horizontal racks are preferred over verticals.</div>
+
+	<div id="dataset-description2">Total count of bike racks used</div>
+	<div id="pieSVG"></div>
+	<div id="tooltip-pie"></div>
+	<script src="pie.js"></script>
+
+	<div id="dataset-description">Average Bike Racks Used Across Different Locations</div>
+	<div id="spider-chart"></div>
+	<div id="tooltip-spider" class="tooltip-spider"></div>
+	<script src="spider-script.js" defer></script>
+	
+
+	<div id="heatmapSVG"></div>
+	<p>When collecting data for Armstrong Hall, we were pretty shocked to notice how little to no one uses the vertical bike racks at all! Click play below to see stats for different times! </p>
+	<button onclick="startAnimation()">Play</button>
+	
+	<script src="heatmap.js"></script>
+
+	<div id="barSVG"></div>
+	<script src="bar.js"></script>
+	<div id="dataset-description3">This stacked bar chart illustrates the total number of distribution of bike racks across different locations, categorized by the type of racks - horizontal, vertical, and vertical racks parked incorrectly</div>
+
+		<label for="timeDropdown">Bike Lockup Times</label>
+		<select name="timeDropdown" id="timeDropdown" onchange='drawArcPlot();'>
+		<option value="Pannier Bike Lockup Times">Pannier Bike Lockup Times</option>
+		<option value="Simple Bike Lockup Times">Simple Bike Lockup Times</option>
+		
+	  	</select>
+		  <div></div>
+      	
+        <svg width="400" height="400" id="timeArc"> </svg> 
+		<div></div>
+      	<label id="Time Text">Lockup Time For Horizontal= 0:28<br>Lockup Time For Vertical = 1:28</label>
+    <script src="spiralplot.js"></script>>
+
+
+
+</main>
+<footer>
+TiredFlyer
+</footer>
+</body>
+</html>

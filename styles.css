@@ -1,0 +1,217 @@
+* {font-family: "Lucida Console", "Courier New", monospace;
+	text-decoration: none;}
+	/* 1c2414 394e2c 647a4c 77905b f0d003 fae526 */
+header {
+		font-family: "Lucida Console", "Courier New", monospace;
+		background-color: #ffcc00;
+	  color: #FFFFFF;
+    height: 60px;
+    padding-top: 10px;
+    text-decoration: none;
+
+}
+header a{
+    color: #FFFFFF;
+    text-decoration: none;
+		font-family: "Lucida Console", "Courier New", monospace;
+}
+header a:hover{
+  text-decoration: underline;
+  color: #000000;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+div{
+	text-align: center;
+	margin-bottom: 20px;
+}
+main {
+	background-color: 	#E8E8E8;
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+h1{
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+h2{
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+h3{
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+p{font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	margin-bottom: 20px;
+}
+li{font-family: "Lucida Console", "Courier New", monospace;}
+dt{font-family: "Lucida Console", "Courier New", monospace;}
+dd{font-family: "Lucida Console", "Courier New", monospace;}
+nav {
+	background-color: #444444;
+	text-align: center;
+}
+.nav2{
+	background-color: #dddddd;
+	text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+    color: #1483FF;
+		font-family: "Lucida Console", "Courier New", monospace;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+dt{
+	font-weight: bold;
+}
+th {
+  text-align: center;
+}
+.saddle {
+  width: 30%;
+}
+.desc {
+  width: 50%;
+}
+.price{
+	width: 20%;
+}
+body{
+	text-align: center;
+}
+footer{
+    background-color: #ffcc00;
+    text-decoration-color: #FFFFFF;
+		color:#FFFFFF;
+    font-style: italic;
+		font-family: "Lucida Console", "Courier New", monospace;
+}
+	/* 1c2414 394e2c 647a4c 77905b f0d003 fae526 */
+button {
+    text-decoration: none;
+    color: initial;
+		font-family: "Lucida Console", "Courier New", monospace;
+		background-color: #ffcc00;
+		font-weight: bold;
+		color: #FFFFFF;
+		border: 0;
+
+	 	box-shadow: none;
+	 	border-radius: 0px;
+	 	padding: 5px 10px;
+	 	display: inline-block;
+	  font-size: 16px;
+	  text-align: center;
+}
+.subtopic{
+	text-decoration: none;
+	color: initial;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: #ffcc00;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0;
+
+	box-shadow: none;
+	border-radius: 0px;
+	padding: 5px 20px;
+	display: inline-block;
+	font-size: 16px;
+}
+img {
+    max-width: 90%;
+    max-height: 100vh;
+    height: auto;
+}
+button:hover{
+    text-decoration: underline;
+    color: #000000;
+		font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.tooltip-spider {
+	position: absolute;
+	text-align: center;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	font: 12px sans-serif;
+	background: rgba(236, 120, 102, 0.959);
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 10;
+}
+.toggleData {
+	box-shadow:inset 0px 1px 0px 0px #5e227f;
+	background:linear-gradient(to bottom, #d2277f 5%, #41a8b3 100%);
+	background-color:#d2277f;
+	border-radius:6px;
+	border:1px solid #5e227f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.toggleData:hover {
+	background:linear-gradient(to bottom, #41a8b3 5%, #d2277f 100%);
+	background-color:#41a8b3;
+}
+.toggleData:active {
+	position:relative;
+	top:1px;
+}
+#dataset-description {
+	margin-top: 0px;
+	margin-bottom:10px;
+	font-size: 21px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+#tooltip-pie {
+	position: absolute; 
+	visibility: hidden; 
+	pointer-events: none; 
+	padding: 5px; 
+	border: 1px solid white; 
+	border-radius: 10px;
+}
+@media screen and (min-width:1024px){
+	main {
+		background-color: 	#E8E8E8;
+		margin-right: auto; /* 1 */
+		margin-left:  5%; /* 1 */
+
+		max-width: 960px; /* 2 */
+
+		padding-right: 10px; /* 3 */
+		padding-left:  10px; /* 3 */
+	}}
+	.tooltip {
+		position: absolute;
+		text-align: center;
+		padding: 5px;
+		font: 12px sans-serif;
+		background: #ffffff;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		pointer-events: none;
+	  }
+0 comments on commit 148bf34
